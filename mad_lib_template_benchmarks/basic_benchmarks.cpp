@@ -1,7 +1,7 @@
 #include "benchmark/benchmark.h"
 #include "mad_lib_template.hpp"
 #include <vector>
-// Benchmarks for int type.
+#include <algorithm>
 
 static void BM_AddInt(benchmark::State &state)
 {

@@ -1,6 +1,7 @@
 #include "gtest/gtest.h"
 #include "mad_lib_template.hpp"
 #include <vector>
+#include <algorithm>
 
 TEST(Add, VeryBasic)
 {
